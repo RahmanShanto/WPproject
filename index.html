@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <style>
+    @media (max-width: 500%) {
+          
+          #video {
+             flex-wrap: wrap;
+         }
+
+        }
+    .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 60%
+    
+   
+    
+}
+
+</style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+        <header id="header">
+            <div class="image">
+                <img src="https://sweeney.agency/wp-content/uploads/2020/01/PS5_Logo-1024x256.png" alt="" id="header-img">
+            </div>
+            <div class="nav-links">
+                <nav id="nav-bar">
+                    <li><a class="nav-link" href="#features">Features</a></li>
+                    <li><a class="nav-link" href="#review">Review</a></li>
+                    <li><a class="nav-link" href="#pricing">Pricing</a></li>
+                </nav>
+            </div>
+        </header>
+    
+
+    <main>
+        <section id="features">
+            <form action="https://www.freecodecamp.org/email-submit" id="form">
+                <div class="email-box">
+                <label for="email"></label>
+                 <input type="email" id="email" name="email" placeholder="Enter your email here.." required>
+                </div>
+                <div id="submit-box">
+                <input type="submit" id="submit" name="submit" class="button">
+                </div> 
+               </form>
+               
+        </section>
+     
+        <section id="review">
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/MepGo2xmVJw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+    </main>
+   <footer>
+    <section id="pricing">
+     
+        <div class="flex-container">
+            <div class="c1">
+               <h4>99$</h4>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui alias laboriosam aperiam</p>
+                
+            </div>
+            <div class="c2">
+                <h4>199$</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicin</p>
+            </div>
+            <div class="c3">
+                <h4>500$</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A non voluptates sapiente</p>
+            </div>
+          </div>
+    </section>
+
+   </footer>
+</body>
+</html>
